@@ -1,0 +1,418 @@
+/*le corps total*//*le corps total*//*le corps total*//*le corps total*//*le corps total*/
+/*le corps total*//*le corps total*//*le corps total*//*le corps total*//*le corps total*/
+/*le corps total*//*le corps total*//*le corps total*//*le corps total*//*le corps total*/
+.App {
+  background-color: rgb(118, 133, 132);
+  background-image:url(../public/residences.jpg);
+  background-size:85rem;
+  background-repeat:no-repeat;
+  height:42.1rem;
+  padding-bottom:1rem;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  
+}
+
+/*page d'accueil*//*page d'accueil*//*page d'accueil*//*page d'accueil*//*page d'accueil*/
+
+/*boites gauche*//*boites gauche*//*boites gauche*/
+/*boites gauche*//*boites gauche*//*boites gauche*/
+.accueil{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:center;
+  width:40rem;
+  
+}
+
+.boites{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  justify-content:center;
+  justify-content:space-between;
+  height:32rem;
+
+
+}
+.boite_gauche{
+  display:flex;
+  flex-direction:column;
+  align-items: start;
+  justify-content:center;
+  justify-content:space-between;
+  background-color: #777c85;
+  color: white;
+  border-radius:2rem;
+  height:13rem;
+  width:13rem;
+  padding-left:20px;
+  padding-top:20px;
+  padding-bottom:20px;;
+  opacity:80%;
+
+}
+.ligne{
+  display:flex;
+  flex-direction:row;
+  align-items: start;
+  justify-content:center;
+  justify-content:space-between;
+  width:10rem;
+  
+}
+
+.lignes{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:start;
+}
+.logo{
+  width:20px;
+}
+
+.options{
+  background-color: #b1b7c2;
+  border-radius:50rem;
+  height:12px;
+  width:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding-bottom:10px;
+
+}
+
+.menu_gauche{
+  margin-left:10px;
+  font-size:12px;
+  opacity:70%;
+}
+.facebook{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size:20px;
+   margin-left:2px;
+
+}
+.gaming_gauches{
+
+  border-radius:8px;
+  width:180px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  justify-content: space-between;
+  height:4rem;
+  background-color: #7e8691;
+  padding-left:6px;
+  padding-right:6px;
+  
+
+}
+.jeux{
+  height:40px;
+  width: 40x;
+  border-radius:8px;
+}
+.theme{
+ font-size:11px;
+ font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.themes{
+  background-color:rgb(74, 137, 233);
+  width:37px;
+  text-align: center;
+  border-radius:10px;
+  font-size:9px;
+  
+}
+.jeu_detail{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  justify-content:center;
+  justify-content: space-between;
+  font-size:10px;
+  width:192px;
+  margin-left:5px;
+
+}
+
+
+/*boites centre*//*boites centre*//*boites centre*/
+/*boites centre*//*boites centre*//*boites centre*/
+
+.image_produire{
+width:5.5rem;
+height:8rem;
+border-radius:10px;
+}
+
+.cadre_image1{
+  width:5rem;
+  height:8rem;
+  border-radius:10px;
+  background-image:url(../public/tenu.webp);
+  background-repeat:no-repeat;
+  background-size:80px;
+  background-color:rgb(51, 49, 49);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.ajouter{
+  background-color:rgb(129, 129, 245);
+  width:1.5rem;
+  height:1.5rem;
+  border-radius:50rem;
+  text-align: center;
+  color: white;
+  font-size:1rem;
+  font-weight:bolder;
+  margin-bottom:17px;
+
+}
+.storie{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:start;
+  justify-content: space-between;
+  border-radius:10px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 17px;
+  margin-right: 10px;
+}
+
+.actualité{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  justify-content: space-between;
+  background-color:gray;
+  border-radius:10px;
+  width:30rem;
+ 
+  margin-left:10px;
+
+}
+.actu_cadre{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  justify-content:center;
+  justify-content: space-between;
+  background-color:rgb(77, 73, 73);
+  border-radius:10px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height:8rem;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+.profiles{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  padding-left:10px;
+
+}
+.photo_profile{
+ height:30px;
+ width:30px;
+border-radius:50rem;
+}
+.profile_detail{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  justify-content:space-between;
+  margin-left: 10px;
+  width:25rem;
+}
+.temps_profile{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  font-size:15px;
+}
+.satus{
+  margin-left: 10px;
+  color: white;
+  opacity:80%;
+  font-size: 13px;
+}
+.nom_profile{
+  font-size:15px;
+  
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  color: white;
+}
+.reactions{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  justify-content:space-between;
+  padding-left:10px;
+  width: 26rem;
+}
+.emojie{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
+.like{
+  background-color:rgb(34, 94, 185);
+  width:90px;
+  height: 23px;
+  text-align: center;
+  border-radius:10px;
+  font-size:15px;
+}
+.bouttons{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  color: white;
+
+}
+
+
+
+
+/*boites droite*//*boites droite*//*boites droite*/
+/*boites droite*//*boites droite*//*boites droite*/
+.boite_droit{
+ background-color:rgb(51, 49, 49);
+ border-radius:10px;
+ height:50rem;
+ display:flex;
+ flex-direction:column;
+ justify-content: space-between;
+
+}
+
+.profile_detail2{
+
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  justify-content:space-between;
+  margin-left: 10px;
+  width:11rem;
+}
+.page{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  justify-content:center;
+  color: white;
+
+}
+.btn_droit{
+display: flex;
+flex-direction: row;
+align-items:end;
+justify-content: center;
+
+}
+.espace{
+  margin-right:10px;
+}
+
+
+.img_birth{
+
+  width:10rem;
+  height:5rem;
+  border-radius: 10px;
+}
+.contact_birth{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  justify-content:space-between;
+  width:15rem;
+}
+.contact{
+  display: flex;
+  flex-direction:column;
+  align-items:start;
+  justify-content: center;
+  justify-content:space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
